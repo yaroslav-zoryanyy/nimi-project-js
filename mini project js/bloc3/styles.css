@@ -1,0 +1,19 @@
+.post-details {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.comments-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.comment-block {
+    width: calc(25% - 20px);
+    padding: 20px;
+    background-color: #f1f3f5;
+    border: 1px solid #ddd;
+}
