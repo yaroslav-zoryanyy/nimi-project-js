@@ -1,0 +1,18 @@
+.postBloc{
+    width: 100%;
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.commentsBloc{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.commentsBloc div{
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+}

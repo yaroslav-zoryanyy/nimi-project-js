@@ -1,0 +1,30 @@
+a{
+    display: block;
+}
+#post{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+#post-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+#post-container p{
+    padding: 10px;
+    background-color: #e9ecef;
+}
+.user-bloc{
+    width: 100%;
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+}
